@@ -1,6 +1,8 @@
 # dotnetstandard_and_unity3d
 Coding sample of Unity3D and a .NET Standard library
 
+Blog: https://bertt.wordpress.com/2017/02/08/using-net-standard-libraries-in-unity3d/
+
 ![map](map.png) 
 
 ### Installation
