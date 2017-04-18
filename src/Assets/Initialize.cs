@@ -26,7 +26,7 @@ public class Initialize : MonoBehaviour
         http.downloadHandler = handler;
         yield return http.Send();
 
-        if (!http.isError)
+        if (!http.isNetworkError)
         {
             var texture = new Texture2D(10, 5);
             texture.LoadImage(http.downloadHandler.data);
